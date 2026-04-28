@@ -1,0 +1,121 @@
+/* Reset básico */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Corpo */
+body {
+    font-family: 'Times New Roman', Times, serif;
+    background-color: white;
+    color: black;
+}
+
+/* Header cabeçalho*/
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 30px 60px;
+
+}
+
+/* Logo da empresa */
+.logotopo img {
+    width: 120px;
+}
+
+/* Menu opções do topo direito */
+nav ul {
+    display: flex;
+    list-style: none;
+    gap: 40px;
+}
+
+nav li {
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+nav li:hover {
+    color: #aaa;
+}
+
+/* Conteúdo principal */
+body>div {
+    display: inline-block;
+    vertical-align: top;
+    margin: 80px 60px;
+}
+
+/* Texto */
+body>div:first-of-type {
+    max-width: 500px;
+}
+
+h2 {
+    font-size: 42px;
+    margin-bottom: 10px;
+}
+
+h3 {
+    font-size: 22px;
+    font-weight: normal;
+    margin-bottom: 20px;
+    color: #000000;
+}
+
+p {
+    font-size: 14px;
+    line-height: 1.6;
+    margin-bottom: 20px;
+}
+
+/* Input + botão */
+input {
+    padding: 10px;
+    border: none;
+    outline: none;
+    width: 250px;
+
+}
+
+button {
+    padding: 10px 15px;
+    border: none;
+    background-color: #3f3f3f;
+    color: #fff;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+button:hover {
+    background-color: #777;
+}
+
+/* Imagem */
+.imagem img {
+    width: 400px;
+    border: 1px solid #999;
+}
+a{
+    color: black;
+    text-decoration: none;
+}
+a:hover{
+    color: green;
+}
+.input{
+    border-radius: 15px;
+    border: none
+}
+#btn-cliqueaqui{
+    color: green;
+    border-radius: 15px;
+    border: none
+}
+#btn-cliqueaqui:hover{
+    cursor: pointer;
+    color: red;
+}
