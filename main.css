@@ -124,11 +124,12 @@ a:hover{
         .container{
             flex-direction: column;
         }
-    }
+    
     .imagem img {
         width: 250px;
         height: 250px;
     }
     .logotopo{
-        
+        display: none;
     }
+}
